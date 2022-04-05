@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='marfa_bi_connection',
-    version='0.1',
+    version='0.3',
     license='MIT',
     author="Ruslan Galimov",
     author_email='rgalimov@marfa-tech.com',
