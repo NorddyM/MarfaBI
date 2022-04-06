@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-
+from marfa_bi_connection.databaseConnection.databaseConnection import ClickConnection
 
 setup(
     name='marfa_bi_connection',
-    version='0.3.1',
+    version='0.3.2',
     license='MIT',
     author="Ruslan Galimov",
     author_email='rgalimov@marfa-tech.com',
@@ -24,6 +24,5 @@ setup(
         'slack-sdk==3.15.2',
         'google==3.0.0',
         'cryptography==36.0.1'
-      ],
-
+      ]
 )
