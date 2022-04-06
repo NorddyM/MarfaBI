@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from marfa_bi_connection.databaseConnection.databaseConnection import ClickConnection
 
 setup(
     name='marfa_bi_connection',
